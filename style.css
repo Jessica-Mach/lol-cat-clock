@@ -29,6 +29,11 @@ h4 #clock {
   display: block;
   padding: 5px 0px;
 }
+
+img{
+  max-width: 600px;
+}
+
 h1, h2, h3, h6 {
   font-family: 'Bungee Shade', cursive;
 }
