@@ -22,6 +22,9 @@ var oneSecond = 1000;
 var isPartyTime = false;
 // Connect to party button and time selectors
 var partyButton = document.getElementById("partyTimeButton");
+var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+var lunchTimeSelector = document.getElementById("lunchTimeSelector");
+var napTimeSelector = document.getElementById("napTimeSelector");
  
 var showCurrentTime = function(){
     // display the string on the webpage
@@ -129,18 +132,15 @@ var partyEvent = function() {
 };
 
 var wakeUpEvent = function(){
-	var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
 	wake = wakeUpTimeSelector.value;
 
 };
 
 var lunchEvent = function(){
-	var lunchTimeSelector = document.getElementById("lunchTimeSelector");
 	lunch = lunchTimeSelector.value;
 };
 
 var napEvent = function(){
-	var napTimeSelector = document.getElementById("napTimeSelector");
 	nap = napTimeSelector.value;
 };
 
